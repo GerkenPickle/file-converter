@@ -20,7 +20,7 @@ This project is a **Simple Intuitive File Converter Prototype** created as part 
 
 **Related Documents:**  
 - [Project Description PDF](Project_Description.pdf)  
-- [HCI Project Report PDF](HCI_Project_Report.pdf)
+- [HCI Project Final Report PDF](HCI_Project_Report.pdf)
 
 ## Project Structure
 
@@ -59,7 +59,7 @@ file-converter/
 ## Screenshots / Figma Preview
 
 <div align="center">
-  <img src="Design Screenshots.png" width="600" />
+  <img src="Design_Screenshots.png" width="600" />
 </div>
 
 Access the design prototype here:
