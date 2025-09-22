@@ -1,0 +1,508 @@
+/* for any element that is not in the app.js page*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* General Body Styling */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+} */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Styles for Initial Screen - #converter-interface */
+#converter-interface {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+}
+
+#background {
+  position: absolute;
+  width: 1366px;
+  height: 768px;
+  left: 37px;
+  top: 128px;
+}
+
+#background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#rec_file_input {
+  position: absolute;
+  width: 922px;
+  height: 504px;
+  left: 259px;
+  top: 259px;
+  background: rgba(217, 217, 217, 0.01);
+  cursor: pointer; 
+}
+
+#rec_convert_button {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 890px;
+  top: 400px;
+  background: rgba(217, 217, 217, 0.01);
+  cursor: pointer; 
+}
+
+.grey_arrow {
+  position: absolute;
+  width: 272px;
+  height: 250px;
+  left: 1158px;
+  top: 371px;
+}
+
+.grey_arrow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blue_square {
+  position: absolute;
+  width: 425px;
+  height: 425px;
+  left: 698px;
+  top: 304px;
+}
+
+.blue_square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#title {
+  position: absolute;
+  width: 696px;
+  height: 153px;
+  left: 572px;
+  top: 846px;
+}
+
+
+
+#title img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Second Screen Styles - #second-screen */
+#second-screen {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+
+/* Second Screen Background */
+.second-background {
+  position: absolute;
+  width: 1366px;
+  height: 768px;
+  left: 37px;
+  top: 128px;
+}
+
+.second-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Group 6 */
+.group-6 {
+  position: absolute;
+  left: 17.22%;
+  right: 61.43%;
+  top: 33.11%;
+  bottom: 57.13%;
+}
+
+.group-6 img {
+  width: auto;
+  height: auto;
+}
+
+.file-name-container {
+  position: absolute;
+  width: 310px;  
+  height: auto;  
+  left: 25%;
+  top: 40.5%;  
+  transform: translate(-50%, -50%);
+  border: 1.5px solid #0c7fd7;  
+  border-radius: 8px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.75);  
+}
+
+.drop_down_container {
+  position: absolute;
+  width: 310px;  
+  height: auto;  
+  left: 54%;
+  top: 50%;  
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.file-extension-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.file-extension-item label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.file-extension-select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.file-extension-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.demo-text {
+  position: static; 
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #050505;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Delete Icon */
+.delete-icon {
+  position: absolute;
+  width: 31px;
+  height: 29px;
+  left: 595px;
+  top: 375px;
+}
+
+.delete-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Rectangle 16 */
+.rectangle-16 {
+  position: absolute;
+  width: 140px;
+  height: 150px;
+  left: 557px;
+  top: 835px;
+  background: rgba(217, 217, 217, 0.01);
+}
+
+/* Rectangle 17 */
+.rectangle-17 {
+  position: absolute;
+  width: 419px;
+  height: 230px;
+  left: 218px;
+  top: 488px;
+  background: #ffffff;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.convert_rectangle {
+  position: absolute;
+  width: 230px;
+  height: 245px;
+  left: 1178px;
+  top: 378px;
+  background: #ffffff;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Title Image */
+.title-image {
+  position: absolute;
+  width: 696px;
+  height: 153px;
+  left: 404px;
+  top: 835px;
+
+}
+
+.title-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+
+
+
+#files-container {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  transform: translate(-50%, 0);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 2; 
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.file-item2 {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0); 
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.file-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.file-icon img {
+  width: 40px; 
+  height: 40px; 
+  object-fit: contain; 
+}
+
+.file-icon2 {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.file-icon2 img {
+  width: 40px; 
+  height: 40px; 
+  cursor: pointer;
+  object-fit: contain; 
+}
+
+
+.file-details p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.progress-bar-container {
+  margin-top: 0.5rem;
+  background: #f0f0f0; 
+  border-radius: 5px;
+  height: 10px;
+  width: 1100px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%; /* Start with 0% width */
+  background: #4caf50; 
+  animation: loadProgress 3s ease-in-out forwards; /* Animate over 3 seconds */
+}
+
+/* Keyframes for Animation */
+@keyframes loadProgress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.file-conversion-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  position: relative;
+}
+
+.arrow img{
+  width: 900px; 
+  height: 40px; 
+}
+
+.button-divider {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 1rem; 
+  margin: 2rem 0; 
+}
+
+
+.download-all-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  background-color: #69c8ff; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+
+.download-all-button:hover {
+  background-color: #289cdf; 
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between checkbox and label */
+  font-size: 1rem; /* Adjust label text size */
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer; /* Show pointer when hovering over the checkbox */
+}
+
+label {
+  cursor: pointer; /* Make label clickable */
+}
+
+
+
+
+/* Container for the toggle switch */
+.toggle-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the toggle switch */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+/* Circle that moves when toggled */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+/* When the toggle is checked, move the circle to the right */
+input:checked + .slider {
+  background-color: #ccc;
+}
+
+input:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+/* Label styling */
+.toggle-labels {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  margin-top: 10px;
+}
+
