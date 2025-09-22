@@ -59,7 +59,7 @@ file-converter/
 ## Screenshots / Figma Preview
 
 <div align="center">
-  <img src="Design_Screenshots.png" width="600" />
+  <img src="public/images/Design_Screenshots.png" width="600" />
 </div>
 
 Access the design prototype here:
