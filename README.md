@@ -18,6 +18,10 @@ This project is a **Simple Intuitive File Converter Prototype** created as part 
 5. Develop a plan to evaluate the interface/system  
 6. Conduct a final evaluation/study 
 
+**Related Documents:**  
+- [Project Description PDF](Project_Description.pdf)  
+- [HCI Project Report PDF](HCI_Project_Report.pdf)
+
 ## Project Structure
 
 ```
@@ -38,8 +42,8 @@ file-converter/
 │   ├── download.js                 # Download page/component
 │   └── loading.js                  # Loading page/component
 │
-├── [Project_Description.pdf](Project_Description.pdf)         # Original project description from class
-├── [HCI_Project_Report.pdf](HCI_Project_Report.pdf)          # Final project report with research and evaluation
+├── Project_Description.pdf         # Original project description from class
+├── HCI_Project_Report.pdf          # Final project report with research and evaluation
 ├── package.json                     # Project metadata, dependencies, and scripts
 ├── package-lock.json                # Exact versions of installed dependencies
 ├── .gitignore                       # Specifies files/folders to ignore in Git
@@ -54,7 +58,9 @@ file-converter/
 
 ## Screenshots / Figma Preview
 
-<img src="public/images/Design_Screenshots.png" alt="Design_Screenshots" width="400">
+<div align="center">
+  <img src="Design Screenshots.png" width="600" />
+</div>
 
 Access the design prototype here:
 
